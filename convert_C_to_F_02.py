@@ -29,12 +29,12 @@ def Temperature_converter():
         Celsius = float(input('Enter a temperature to convert: '))
         temperature = Celsius * 9/5 + 32
         print()
-        print (f'{Celsius} degrees Celsius is {temperature} degrees Fahrenheit')
+        print (f'{Celsius} degrees Celsius is {temperature} degrees Fahrenheit.')
     else:
         Fahrenheit = float(input('Enter a temperature to convert: '))
-        temperature_2 = (Fahrenheit - 32 ) * 5/9
+        temperature = (Fahrenheit - 32 ) * 5/9
         print()
-        print(f'{Fahrenheit} degrees Fahrenheit is {temperature_2} degrees Celsius')
+        print(f'{Fahrenheit} degrees Fahrenheit is {temperature} degrees Celsius.')
         
 main()
 
